@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+}
+
+.wrapper {
+  background: #e8e8e8;
+  padding: 1.4rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+
+.wrapper__footer {
+  background: #e8e8e8;
+}
+
+.navbar {
+  color: #5d5d5d;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.navbar h1 {
+  transition: color .5s;
+  cursor: pointer;
+}
+
+.navbar h1:hover {
+  color: #f96262;
+}
+
+.panel {
+  background: #ffffff;
+  padding: 1.4rem;
+}
+
+.footer {
+  color: #bababa;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 2.6rem;
+  font-size: 1.2rem;
+}
+
+.checkbox {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: .9rem 1.6rem;
+  display: inline-block;
+  position: relative;
+  box-shadow: inset 0 .1rem .1rem .1rem white, 0 .1rem .3rem rgba(0, 0, 0, 0.5);
+}
+
+.checkbox label {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: .4rem;
+  left: .4rem;
+  cursor: pointer;
+  background: #e8e8e8;
+}
+
+.checkbox label::after {
+  content: '';
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  top: .2rem;
+  left: .2rem;
+  background: #aaaaaa;
+  box-shadow: inset 0 .1rem .1rem #3e3e3e, 0 .1rem .3rem rgba(255, 255, 255, 0.5);
+  opacity: 0;
+}
+
+.checkbox label:hover::after {
+  opacity: 0.3;
+}
+
+.checkbox input[type=checkbox] {
+  visibility: hidden;
+}
+
+.checkbox input[type=checkbox]:checked+label::after {
+  opacity: 1;
+}
+
+.checkbox.time-interval {
+  border: 1px solid #f96262;
+}
+
+.row {
+  padding-left: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*//*/
